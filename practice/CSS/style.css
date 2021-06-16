@@ -1,0 +1,201 @@
+ body{
+    font-size:24px ;
+}
+
+h1{
+    color:darkred;
+}
+
+
+.Selectors {
+    background-color: blue;
+    color:white;
+
+}
+.element{
+    background-color: green;
+}
+.selclass{
+    background-color: cyan;
+    color:white;
+}
+.element h1{
+    color:yellow;
+}
+.selclass h1{
+    color:teal;
+}
+#id-selector{
+    background-color: violet;
+}
+.selclass.heading h1{
+    color:yellowgreen;
+
+}
+h1,h2, h3,h4,h5,p{
+    text-align:center;
+}
+*{
+    margin: 0px;
+}
+.image-gallery h1{
+    color:palevioletred;
+}
+
+.image-gallery img{
+    width: 25%;
+    float:left;
+    height:300px;
+}
+
+.block-level {
+    background-color: papayawhip;
+}
+
+.inline-element {
+    background-color: powderblue;
+}
+
+
+.or-list ol li{
+    list-style-type: lower-greek;
+}
+.un-list li{
+    list-style-type: square;
+}
+
+.left-img-right-content p img{
+    width: 500px;
+    float: left;
+}
+.left-content-right-img p img{
+    width:500px;
+    float:right;
+
+
+} 
+
+.background-image{
+    background-image: url("../images/bg.jpg");
+    height: 500px;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+
+    /* 100 view height */
+    /* height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+}
+
+.Parallax{
+
+    background-image: url("../images/web3.png");
+    height: 300px;
+    background-attachment: fixed;
+}
+
+.background-image1{
+    background-image: url("../images/bg3.jpg");
+    height: 100px;
+      background-position: center; 
+      background-repeat: no-repeat;
+
+}
+.table table,td,th {
+    border: 2px solid gray;
+    border-collapse: collapse; 
+    /* border-spacing: 15px; */
+}
+td,th{
+    padding: 50px 20px 30px 20px;
+}
+
+.Forms h2  {
+    color: darkblue;
+}
+
+.Forms h3 {
+    color: darkcyan;
+}
+
+.form{
+    width: 500px;
+
+}
+.form-control{
+    border: 2px solid gray;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.btn-style{
+
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding: 10px 20px;
+}
+
+.border{
+    width: 500px;
+    height: 400px;
+    background-color: blueviolet;
+    border: 12px solid gray;
+}
+
+.bg-origion{
+
+    background-image: url("../images/favicon.jpg");
+    border: 2px dotted red;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    padding:30px;
+}
+
+.bg-clip{
+    background-color: greenyellow;
+    border: 2px dotted red;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    padding:30px;
+
+}
+.border-div{
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    outline: 5px dotted orchid;
+    outline-offset:10px ;
+   
+}
+
+.green-bg{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+.Text-property{
+
+    margin-top: 100px;
+}
+.Text-property h1{
+    text-decoration: underline;
+    text-transform: capitalize;
+
+
+}
+.Text-property ol li{
+    text-transform: none;
+}

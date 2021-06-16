@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A2N Academy</title>
+<link href = "./images/favicon.jpg" type="img/jpg" rel="shortcut icon"/>
+<link href="./CSS/style.css" type="text/css" rel="Stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="Forms">
+    <h1>Forms in HTML</h1>
+    <p>Forms are used to collect the data from user</p>
+    <form>
+        <label>Enter a date before 1990</label>
+        <input type="date" max="1990-12-31">
+
+        <label>Enter a date after 1990</label>
+
+        <input type="date" min="1991-12-31">
+    </form>
+
+    <form>
+        <label>Birthday (date & time)</label>
+        <input type="datetime-local" class="form-control">
+
+
+
+    </form>
+    <form class="form">
+        <input type="number"  placeholder="Enter your name" name="" class="form-control" id="" >
+
+        <input name="" placeholder="Enter email" class="form-control" id="" type="email" required  >
+
+        <input class="form-control" type="file">
+
+        <input type="month" class="form-control" id="">
+
+        <input type="range" min="0" max="70">
+
+        <input type="Search" placeholder="Type something...." class="form-control" >
+ 
+        <input type="tel" class="form-control" placeholder="91-984-5366-616" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}-[0-9{3}">
+        
+        <input class="form-control" type="time">
+        
+        <input class="btn-style" type="submit"><br>
+        
+    </form>
+
+   <form class="form">
+    <label>Enter Url</label>
+
+    <input type="url"placeholder="Enter Your Url" class="form-control">
+
+    <input type="week" class="form-control">
+
+    <input type="button" class="btn-style" value="Submit" >
+    
+
+
+   </form>
+
+    <h2>Input Attribute</h2>
+
+    <ul>
+        <li>readonly</li>
+        <li>Disabled</li>
+    </ul>
+    <form>
+
+        <input type="text" value="hello!" name="" id="" class="form-control" readonly>
+        <input type="text" value="Some Text" name="" id="" class="form-control" disabled >
+        <input type="submit" class="btn-style">
+    </form>
+    <form>
+        <label> First Name</label>
+        <input value="Srishti" id="name"  name="fname" type="text"/>
+       <br>
+
+        <label> Last Name</label>
+        <input value="Pal" id="name" name="lname" type="text"/>
+
+
+        <br>
+        <label> Phone Number</label>
+        <input value="9538086266" id="num" name="pnum" type="number"/>
+
+
+        <br>
+        <label>Email id</label>
+        <input value="Sris14@gmail.com" id="email" name="email" type="email"/>
+
+        <br>
+        <label> Address</label>
+        <textarea rows="10" cols="30"></textarea>
+        <br>
+        <input type="button" name="button" id="button" value="Submit">
+         <br>
+
+         <input type="reset" value="Reset" name="reset" id="reset">
+
+
+      
+    </form>
+    
+    <h2>Radio Button</h2>
+    <form>
+    
+    <h3>Select Gender</h3>
+    <br>
+    
+   
+    
+  
+    <input name="Gender" id="male" type="radio"><label>Male</label><br>
+   
+
+    
+    <input name="Gender" id="fmale" type="radio"><label>Female</label>
+    <br>
+   
+
+
+   
+    
+    <input name="Gender" id="others" type="radio"> <label>Others</label>
+    <br>
+  
+    <input type="button" value="Submit">
+    </form>
+
+
+    <form>
+
+        <h3>Select Your favourite color</h3>
+        <input type="checkbox" name="red" id="red" >Red<br>
+        <input type="checkbox" name="green" id="green">Green<br>
+        <input type="checkbox" name="black" id="black">Black<br>
+        <input type="button" value="Submit">
+    </form>
+
+    <form>
+
+        <h3>Select Color</h3>
+        <input type="color" name="color" id="color">
+        <input type="button" value="Submit">
+    </form>
+
+    <form>  
+
+      <label for = "dob">Select Dob</label>
+      <input type="date" value="date" name="date">
+
+    </form>
+
+    <h2>Size Attribute</h2>
+    <form class="form">
+    <input type="text" size="30" required placeholder="Enter your name"class="form-control" >
+    <input type="text" required placeholder="Enter a pin"id="pin" name="pin"maxlength="6" class="form-control" >
+    <input type="file" required class="form-control" id="file" name="file" multiple>  
+    <input type="submit" class="btn-style">
+
+
+
+</form>
+<h3>Autofocus attribute</h3>
+<form>
+    <input type="text" class="form-control" placeholder="Enter name" autofocus>
+    <input type="email" class="form-control" placeholder="Enter Email">
+    <input type="submit" class="btn-style" value="submit">
+</form>
+<form class="form">
+    <input type="image" width="100" height="40" src="images/favicon.jpg">
+    <input type="submit" class="btn-style" value="submit">
+
+
+     
+</form>
+
+<form target="_blank" method="POST"  action="index.html" autocomplete="on" novalidate>
+    <input type="text" class="form-control" placeholder="Enter name" autofocus>
+    <input type="email" class="form-control" placeholder="Enter Email">
+    <input type="submit" class="btn-style" value="submit">
+
+
+
+</form>
+<form action="index2.html">
+
+    <input list="browsers" class="form-control">
+    <datalist id="browsers">
+
+        <option value="IE">
+            <option value="Mozilla">
+                <option value="Google chrome">
+                    <option value="Edge"></option>
+                </option>
+            </option>
+        </option>
+    </datalist>
+    <select class="form-control">
+
+        <option value="IE">
+            <option value="Mozilla">
+                <option value="Google chrome">
+                    <option value="Edge"></option>
+                </option>
+            </option>
+        </option>
+
+
+    </select>
+</form>
+<div class="border"></div>
+
+</div>  
+</body>
+
+</html>

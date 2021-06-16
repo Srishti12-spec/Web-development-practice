@@ -1,0 +1,145 @@
+.img-fluid{
+    max-width: 100%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lato','Helvetica','Arial';
+}
+.container{
+    width:100%;
+    margin: auto;
+}
+
+header,section,footer{
+    width: 100%;
+    float: left;
+    
+}
+
+/*HEADER SECTION*/
+
+.headclass{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
+    
+}
+.header1{
+    width: 50%;
+    float: left;
+    padding-left: 35px;
+}
+
+.header2{
+    width: 50%;
+    float: left;
+    padding-left: 450px;
+}
+.text1{
+    float: left;
+    margin-right: 34px;
+}
+.text1 ul li{
+    display: inline-block;
+    color: #2073d9;
+    margin-left: 10px;
+}
+.menu-text{
+    float: left;
+}
+.header1 img{
+    height: 25px;
+}
+/*MAIN SECTION*/
+
+.main-sec{
+    background-color: #f0f0f0;
+    
+}
+
+
+.text-part h1{
+    padding-top: 20px;
+    margin-bottom: 15px;
+
+
+}
+.inner-cont{
+    margin: 3% 1%;
+    height: 94%;
+    width: 98%;
+    background-color: white;
+    text-align: center;
+}
+
+.text-part p{
+    font-family: Lato;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 15px;
+}
+
+/*CHECKLIST*/
+ 
+ 
+.row1 ul li{
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    height: 45px;
+
+
+}
+
+.chk-img1{
+    padding-right: 20px;
+    display: inline-block;
+    
+    margin-top: 40px;
+    position: absolute;
+    
+}
+.row1 ul li p{
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.btn{
+    background: #F26D21;
+    color: #fff;
+    border-radius: 12px;
+    font-style: normal;
+    
+    font-size: 14px;
+    line-height: 22px;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.social-icon{
+    padding-bottom: 60px;
+}
+
+.footer{
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.footer1 p{
+    font-size: 11px;
+    margin-top: 24px;
+    color: #666;
+    margin-bottom: 24px;
+}
+
